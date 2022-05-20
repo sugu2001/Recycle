@@ -1,0 +1,32 @@
+.menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 10%;
+    width: 100%;
+    background-color: rgb(119, 197, 119);
+}
+
+.menu>.menus>a{
+    position: relative;
+    top: 38%;
+    margin-left: 50px;
+    text-decoration: none;
+    color: white;
+    font-size: 150%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.menus{
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 0;
+}
